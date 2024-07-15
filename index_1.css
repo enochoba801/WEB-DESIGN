@@ -1,0 +1,134 @@
+body{
+  background-color: rgb(231, 231, 231);
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  height: 100vh;
+  padding-bottom: 50px;
+}
+.container {
+  background-color: #1F2937;
+  width: 90%;
+  margin : auto;
+  padding-top: 20px;
+  max-width: 500px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 480px;
+  border-radius: 5px;
+  border: 5px solid black;
+}
+
+
+
+h1{
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: -10px;
+  position: relative;
+  top: 90px;
+  font-weight: bolder;
+}
+
+.text{
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-family:'Times New Roman', Times, serif;
+  position: relative;
+  top: 90px;
+}
+#generate-button{
+  background-color: #00ff7f;
+  border: none;
+  padding: 10px 20px;
+  color: #FFFFFF;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  position: absolute ;
+  left: 40px;
+  top: 280px;
+  border-radius: 5px;
+  border: 1px solid rgb(17, 206, 149);
+}
+button:hover {
+  background-color: #00e673;
+}
+.highlight {
+  color: #00ff7f;
+}
+
+
+.fieldset-wrapper {
+  margin-bottom: 20px;
+  padding-top: 30px;
+  max-width: 471px;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 2;
+  border-top: 0.5px solid #3b3b4f;
+  position: relative;
+  left: 15px;
+  field-sizing: border;
+  position: relative;
+  top: 110px
+}
+
+.passwords {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-top: 0px;
+  padding-right: 13px;
+  padding-left: 13px;
+  position: relative;
+  top: 110px;
+  font-size:medium
+}
+.container-1{
+  background-color: #273549;
+  /* padding: 10px; */
+  /* width: 41%; */
+  height: 40px;
+  border-radius: 5px;
+  /* position: relative  ;
+  left: 15px; */
+  /* padding-left: 20px; */
+  color: #00e673;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-2{
+ background-color: #273549;
+ /* padding: 10px; */
+ /* width: 41%; */
+ height: 40px;
+ border-radius: 6px;
+ /* position: fixed;
+ right: 33px;
+ bottom: 30px; */
+ color:#00e673;
+ vertical-align: middle;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+
+ .container-1 p,
+ .container-2 p {
+  margin: 0px;
+ 
+ }
