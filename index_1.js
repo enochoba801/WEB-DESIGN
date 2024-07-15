@@ -34,8 +34,3 @@ generateButton.addEventListener("click", function() {
   navigator.clipboard.writeText(copyText);
   alert("Text copied to clipboard")
  })
-
-
-popup.addEventListener("click", function() {
-  popup.style.display = "none";
-});
